@@ -16,3 +16,29 @@
 }
 
 /*esercizio 3*/
+.ex-3-square{
+    transition: border-radius 2s;
+}
+.ex-3-square:hover{
+    border-radius: 50px;
+}
+/*esercizio 4*/
+.ex-4-square{
+    transition: opacity 2s;
+}
+.ex-4-square:hover{
+    opacity: 0;
+}
+/*esercizio 5*/
+.ex-5-square{
+    transition: width 2s, height 2s;
+}
+.ex-5-square:hover{
+    height: 100px;
+    width: 100px;
+}
+.ex-5-square:active{
+    height: 20px;
+    width: 20px;
+}
+
