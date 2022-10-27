@@ -71,3 +71,26 @@
     width: 500px;
 }
 /*esercizio 10*/
+.ex-10-icon{
+    animation:ruota infinite linear 2s;
+}
+@keyframes ruota {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+/*esercizio 11*/
+.ex-11-icon:hover{
+    animation:ruota-270deg linear 2s;
+}
+@keyframes ruota-270deg{
+    0% {
+        transform: rotate(0);
+    }
+    85%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
