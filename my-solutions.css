@@ -41,4 +41,33 @@
     height: 20px;
     width: 20px;
 }
-
+/*esercizio 6*/
+.ex-6-img:hover{
+    filter:grayscale(100%)
+}
+/*esercizio 7*/
+.ex-7-img{
+    transition: filter 2s;
+    
+}
+.ex-7-img:hover{
+    filter:grayscale(100%) brightness(100%)
+}
+/*esercizio 8*/
+.ex-8-img{
+    transition: filter 2s, border-radius 2s;
+}
+.ex-8-img:hover{
+    filter: sepia(100%) contrast(150%);
+    border-radius: 20px;
+}
+/*esercizio 9*/
+.ex-9-img{
+    transition: filter 2s, border-radius 2s, width 2s;
+}
+.ex-9-img:hover{
+    filter: sepia(100%) contrast(150%);
+    border-radius: 20px;
+    width: 500px;
+}
+/*esercizio 10*/
