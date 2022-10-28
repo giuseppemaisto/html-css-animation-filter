@@ -94,3 +94,102 @@
         transform: rotate(0);
     }
 }
+/*esercizio 12*/
+.ex-12-button:hover .ex-12-top-white{
+    animation: move_topwhite infinite 4s;
+}
+@keyframes move_topwhite{
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+
+    50%{
+        top: -10px;
+        left: 60%;
+    }
+    100%{
+        top: -10px;
+        left: 10%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white{
+   animation: move_bottomwhite infinite 4s;
+}
+@keyframes move_bottomwhite{
+    0%{
+        bottom: -10px;
+        right: 10%;
+    }
+    50%{
+        bottom: -10px;
+        right: 60%;
+    }
+    100%{
+        bottom: -10px;
+        right: 10%;
+    }
+}
+
+
+/*esercizio 13*/
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: move_13top  4s;
+}
+@keyframes move_13top{
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+    20%{
+        top: -10px;
+        left: 85%;
+    }
+    40%{
+        top: 60px;
+        left: 85%;
+    }
+    60%{
+        top: 60px;
+        left: -15%;
+    }
+    80%{
+        top: -10px;
+        left: -15%;
+    }
+    100%{
+        top: -10px;
+        left: 10%;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: move_13bottom  4s;
+}
+@keyframes move_13bottom{
+    0%{
+        bottom: -10px;
+        right: 10%;
+    }
+    20%{
+        bottom: -10px;
+        right: 85%;
+    }
+    40%{
+        bottom: 60px;
+        right: 85%;
+    }
+    60%{
+        bottom: 60px;
+        right: -15%;
+    }
+    80%{
+        bottom: -10px;
+        right: -15%;
+    }
+    100%{
+        bottom: -10px;
+        right: 20%;
+    }
+}
